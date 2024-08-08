@@ -14,7 +14,7 @@ const openai = new OpenAIApi(configuration);
 // TODO: Move conversation_history to local storage 
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:5173','http://localhost:5174', 'https://preptify.com', 'https://preptify-qsbq37o4l-aathul-raj.vercel.app', 'https://www.preptify.com'], // replace with your client's origin
+  origin: ['http://localhost:5173','http://localhost:5174', 'https://preptify.com', 'https://preptify-qsbq37o4l-aathul-raj.vercel.app', 'https://www.preptify.com', 'https://old.preptify.com'], // replace with your client's origin
   credentials: true
 }));
 app.use(bodyParser.json());
